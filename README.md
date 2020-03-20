@@ -1,5 +1,7 @@
 # markdown-furigana
 
+[![](https://vsmarketplacebadge.apphb.com/version/iltrof.markdown-furigana.svg)](https://marketplace.visualstudio.com/items?itemName=iltrof.markdown-furigana)
+
 VSCode extension which adds furigana support to vscode's
 built-in markdown preview.
 
