@@ -1,0 +1,37 @@
+{
+  "name": "markdown-furigana",
+  "displayName": "Markdown Furigana",
+  "description": "Furigana syntax support for vscode's markdown preview",
+  "keywords": [
+    "markdown",
+    "furigana"
+  ],
+  "license": "MIT",
+  "repository": {
+    "url": "https://github.com/iltrof/vscode-markdown-furigana.git"
+  },
+  "bugs": {
+    "url": "https://github.com/iltrof/vscode-markdown-furigana/issues"
+  },
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.15.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./extension.js",
+  "contributes": {
+    "markdown.markdownItPlugins": true
+  },
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.43.0"
+  },
+  "dependencies": {
+    "furigana-markdown-it": "^1.0.3"
+  }
+}
